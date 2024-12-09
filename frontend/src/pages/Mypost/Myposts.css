@@ -1,0 +1,144 @@
+  
+  /* Styling for the MyPosts page */
+.myposts-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .myposts-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for MyPosts */
+  .myposts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Card styling for each post */
+  .myposts-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  /* Hover effect for the cards */
+  .myposts-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image styling for the post */
+  .myposts-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Title and description of the post */
+  .myposts-title {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  
+  .myposts-description {
+    padding: 0 10px 10px;
+  }
+  .myposts-container {
+    padding: 20px;
+    background-color: #141414;
+    color: #fff;
+}
+
+.category-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: scale(1.05);
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.post-details {
+    padding: 10px;
+}
+
+.post-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color:black;
+}
+
+.post-content {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+.myposts-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.category-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.post-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post-details {
+  margin-top: 10px;
+}
+
+.post-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-size: 14px;
+  color: #666;
+}

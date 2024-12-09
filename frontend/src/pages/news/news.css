@@ -1,0 +1,73 @@
+/* NewsPage.css */
+
+/* Style the overall page */
+#news-page h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  /* Create a grid for displaying news cards */
+  #news-page .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Style each individual news card */
+  #news-page .news-card {
+    background-color: #181818; /* Dark background for the card */
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Image Styling */
+  #news-page .news-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Title Styling */
+  #news-page .news-title {
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Description Styling */
+  #news-page .news-description {
+    font-size: 0.9rem;
+    color: #ddd;
+    margin: 10px;
+  }
+  
+  /* Link Styling */
+  #news-page .read-more {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  /* Hover effects */
+  #news-page .news-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+  }
+  
+  #news-page .read-more:hover {
+    background-color: #0056b3;
+  }
+  
